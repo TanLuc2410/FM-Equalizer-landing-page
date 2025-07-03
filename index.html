@@ -6,11 +6,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
   <link rel="stylesheet" href="./src/style.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- Javascript -->
   <script type="module" src="/src/main.js" defer></script>
 </head>
 
 <body>
+  <header class="m-block-end-1100" id="home">
+    <div class="container">
+      <nav class="navigation | m-block-end-1100 p-block-600">
+        <img src="./assets/logo.svg" alt="">
+      </nav>
 
+      <div class="header-content">
+        <h1 class="header-content__title | m-block-end-400">We make your music sound extraordinary</h1>
+        <p class="header-content__body">A system audio equalizer specifically designed for Android and iOS. Freely tune
+          the way your music sounds
+          with a professional grade parametric EQ & volume mixer. Control bass, mids, treble, gain control, reverb, and
+          more!</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="bg-wrapper">
+      <div class="container">
+        <div class="subscription-wrapper">
+          <h2 class="subscription__title">Premium EQ</h2>
+          <p class="subscription__body">Get expert-level control with a robust equalizer, volume mixer, and spatial
+            audio. Take your listening
+            experience to a whole new level and access all our incredible features!</p>
+          <p class="subscription__price"><span class="subscription__price--bold">$4</span> / month</p>
+          <button class="btn btn--black"><img src="./assets/icon-apple.svg" alt="">iOS Download</button>
+          <button class="btn btn--light"><img src="./assets/icon-android.svg" alt="">Android Download</button>
+        </div>
+
+        <div class="illustration-wrapper">
+          <img src="./assets/illustration-app.png" alt="">
+        </div>
+        <div class="bg2-wrapper">
+          <img src="./assets/bg-pattern-2.svg" alt="">
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer__wrapper">
+      <div class="footer__logo">
+        <a href="#home"><img src="./assets/logo.svg" alt=""></a>
+      </div>
+
+      <div class="footer__contact">
+        <p class="contact__copyright">All rights reserved © Equalizer 2021</p>
+        <p class="contact__problem-text">Have any problems? Contact us via social media or email us at</p>
+        <address class="contact__email">
+          <a class="contact__email--bold" href="#">equalizer@example.com</a>
+        </address>
+      </div>
+
+      <div class="footer__social">
+        <img src="./assets/icon-facebook.svg" alt="">
+        <img src="./assets/icon-instagram.svg" alt="">
+        <img src="./assets/icon-twitter.svg" alt="">
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
